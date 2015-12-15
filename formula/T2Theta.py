@@ -9,8 +9,8 @@ import math
 # parameters
 Rd = 287.0
 Cp = 1004.0
-T0 = 273.15
-P0 = 1000		# reference pressure
+T0 = 273.15		# T[k] = T[degree C] + 273.15
+P0 = 1000		# reference pressure [hPa]
 
 def Tc2Theta (T, P):
 	# T [degree C], P [hPa]
